@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color : #64CCC5;
+    --secondary-bg-color: #0C0C0C;
+    --bg-color: #0C0C0CE5;
+    --white-color: #0C0C0CE5;
+    --light-gray-color:#F4F4F4;
+    --dark-gray-color:#DFDFDF;
+}
+
+.nav-bg-color{
+    background-color: var(--bg-color) !important;
+    color: var(--white-color) !important;
+}
+
+.hero-section{
+    background-color: var(--bg-color) !important;
+    position: relative;
+    
+}
+
+.text-blue{
+    color: var(--primary-color);
+}
+.hero-img{
+    max-width:100%;
+    height: 75%;
+}
+
+.ornament{
+    max-width: 80px;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.hero{
+    position: relative;
+    /* background: #0C0C0C; */
+}
