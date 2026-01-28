@@ -17,6 +17,10 @@
     color: var(--white-color) !important;
 }
 
+.nav-icon-bars{
+    filter: invert(1);
+}
+
 .hero-section{
     background-color: var(--bg-color) !important;
     position: relative;
