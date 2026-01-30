@@ -18,9 +18,6 @@ body {
     overflow-x: hidden;
 }
 
-.container-xxl {
-    overflow-x: hidden;
-}
 
 .bg-darkblue {
     background-color: var(--primary-color-1) !important;
