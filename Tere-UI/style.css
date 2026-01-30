@@ -2,3 +2,12 @@
   max-width: 80%;
   height: auto;
 }
+
+:root{
+  --secondary-color :  #75BF7A;
+
+}
+
+.apply-drive-section{
+  background-color: var(--secondary-color);
+}
