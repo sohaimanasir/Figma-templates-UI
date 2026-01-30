@@ -49,6 +49,10 @@ body {
     color: var(--secondary-color-white);
 }
 
+.nav-icon-bars{
+    filter: invert(1);
+}
+
 /* ===== HERO ===== */
 .hero-section {
     height: 91vh;
