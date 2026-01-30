@@ -45,6 +45,7 @@
 /* ===== HERO ===== */
 .hero-section {
     height: 91vh;
+    margin: auto;
     background-color: var(--primary-color-1);
     display: flex;
     align-items: center;
@@ -87,4 +88,33 @@
         max-height: 40vh;
     }
 }
+
+.carousel-item .card {
+    margin: 0 auto;
+    max-width: 90%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel-item.active .card {
+    transform: scale(1.01);
+}
+
+/* Small dots */
+.carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    border: none;
+}
+
+.carousel-indicators .active {
+    background-color: var(--primary-color-2); 
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
 
